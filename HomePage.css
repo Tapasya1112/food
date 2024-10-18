@@ -1,0 +1,213 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+    /* background-image: url(background.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/** Main Div **/
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(background.jpg);
+
+}
+
+/** Nav Start **/
+
+
+.nav{
+    height: 50px; 
+    width: 100%;
+}
+.nav-bar{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+}
+
+/** Nav Logo & Title **/
+
+
+.title {
+    display: flex;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gold;
+    gap: 10px;
+    padding-top: 5px;
+    cursor: pointer; 
+}
+.title i{
+    padding-top: 5px;
+    color: gold;
+    transition: 0.5s;
+}
+.title i:hover{
+    color: red;
+}
+.title p{
+    transition: 0.5s;
+}
+.title p:hover{
+    color: red;
+}
+
+/** Nav Options or Buttons **/
+
+
+.buttons{
+    display: flex;
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.buttons a:hover{
+    font-size: 25px;
+    color: red;
+}
+
+/** Nav User Account Logo **/
+
+
+.user-ac i{
+    font-size: 30px;
+    color: gold;
+    margin-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.user-ac i:hover{
+    color: red;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.banner h1{
+    color: gold;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.banner h1:hover{
+    color: red;
+}
+.box{
+    margin-top: 50px;
+}
+.category{
+    display: flex;
+    justify-content: space-around;
+}
+.category button {
+    margin-top: 350px;
+    height: 40px;
+    width: 230px;
+    background: none;
+    border: 1px solid #000;
+    font-size: xx-large;
+    backdrop-filter: blur(1.5px);
+    transition: 0.5s;
+    border-radius: 12px;
+}
+
+.category a {
+    color: rgb(255, 229, 57);
+    text-decoration: none;
+    font-weight:650;
+    transition: .5s;
+}
+
+.category button:hover, .category a:hover {
+    scale: 1.1;
+    color: rgba(255, 0, 0, 0.662);
+}
+
+.FastFood{
+    height: 450px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url(bgimg4.png);
+    background-position: end;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.Breakfast{
+    height: 450px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url(breakfast.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+.Meal{
+    height: 450px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url(meal.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+.Dessert{
+    height: 450px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url(dessert.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+.footer{
+    display: flex;
+    color: white;
+    background-color: #222121;
+    height: 60px;
+    width: 100%;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+}

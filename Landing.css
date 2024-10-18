@@ -1,0 +1,200 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+}
+
+/** Main Div **/
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(background.jpg);
+
+}
+
+/** Nav Start **/
+
+
+.nav{
+    height: 50px; 
+    width: 100%;
+}
+.nav-bar{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+}
+
+/** Nav Logo & Title **/
+
+
+.title {
+    display: flex;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gold;
+    gap: 10px;
+    padding-top: 5px;
+    cursor: pointer; 
+}
+.title i{
+    padding-top: 5px;
+    color: gold;
+    transition: 0.5s;
+}
+.title i:hover{
+    color: red;
+}
+.title p{
+    transition: 0.5s;
+}
+.title p:hover{
+    color: red;
+}
+
+/** Nav Options or Buttons **/
+
+
+.buttons{
+    display: flex;
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.buttons a:hover{
+    font-size: 25px;
+    color: red;
+}
+/** Nav User Account Logo **/
+
+.user-ac i{
+    font-size: 30px;
+    color: gold;
+    margin-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.user-ac i:hover{
+    color: red;
+}
+
+/** Main Container **/
+
+
+.container{
+    display: flex;
+    background-image: url(image\ \(4\).png);
+    height: 100vh;
+}
+
+/** Left Side Content Container **/
+
+
+.content{
+    height: 450px;
+    width: 600px;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.main-title{
+    display: flex;
+    height: 200px;
+    width: 600px;
+}
+
+/** Red Colour Title(Fresh) **/
+
+.fresh{
+    height: 200px;
+    width: 300px;
+    font-size: 120px;
+    font-weight: 900;
+    color: red;
+}
+
+/** Black Colour Title(Food Delivery) **/
+
+.food{
+    height: 200px;
+    width: 300px;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(254, 216, 0);
+}
+
+/** Discrition below the title **/
+
+.discripstion{
+    margin-top: -50px;
+}
+.discripstion p{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 5px;
+    color: #fff;
+}
+
+/**  Get Button **/
+
+.button{
+    padding: 50px 0px 0px 200px;
+}
+.button button a{
+    text-decoration: none;
+    color: white;
+}
+.button button{
+    height: 70px;
+    width: 180px;
+    margin-top: 20px;
+    background-color: rgb(255, 0, 0);
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    transition: 0.5s;
+}
+.button button:hover{
+    scale: 1.2;
+    background-color: rgb(255, 136, 0);
+}
+
+/** Left side container & Image **/
+
+.aside-container{
+    height: 500px;
+    width: 500px;
+    margin-top: 10%;;
+    margin-left: 5%;
+    overflow: hidden;
+}
+.aside-container img{
+    animation: img 15s linear 0s infinite;
+}
+@keyframes img{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

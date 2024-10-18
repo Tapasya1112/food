@@ -1,0 +1,400 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+    /* background-image: url(background.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/** Main Div **/
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(background.jpg);
+
+}
+
+/** Nav Start **/
+
+
+.nav{
+    height: 50px; 
+    width: 100%;
+}
+.nav-bar{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+}
+
+/** Nav Logo & Title **/
+
+
+.title {
+    display: flex;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gold;
+    gap: 10px;
+    padding-top: 5px;
+    cursor: pointer; 
+}
+.title i{
+    padding-top: 5px;
+    color: gold;
+    transition: 0.5s;
+}
+.title i:hover{
+    color: red;
+}
+.title p{
+    transition: 0.5s;
+}
+.title p:hover{
+    color: red;
+}
+
+/** Nav Options or Buttons **/
+
+
+.buttons{
+    display: flex;
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.buttons a:hover{
+    font-size: 25px;
+    color: red;
+}
+
+/** Nav User Account Logo **/
+
+
+.user-ac i{
+    font-size: 30px;
+    color: gold;
+    margin-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.user-ac i:hover{
+    color: red;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url(image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+.banner{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.banner h1{
+    color: gold;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.banner h1:hover{
+    color: red;
+}
+.box{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.category{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    justify-content: space-between;
+}
+.category button {
+    height: 40px;
+    width: 230px;
+    background: none;
+    border: 1px solid #000;
+    font-size: xx-large;
+    backdrop-filter: blur(1.5px);
+    transition: 0.5s;
+    border-radius: 12px;
+}
+
+.button {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.category a {
+    color: rgb(255, 229, 57);
+    text-decoration: none;
+    font-weight:650;
+    transition: .5s;
+}
+
+.category button:hover, .category a:hover {
+    scale: 1.1;
+    color: rgba(255, 0, 0, 0.662);
+}
+
+.FastFood{
+    height: 450px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url(bgimg4.png);
+    background-position: end;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+#burger {
+    background-image: url(pexels-pedrofurtadoo-28902881.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#noodles {
+    background-image: url(noodles.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#Momos {
+    background-image: url(momos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#FrenchFrie {
+    background-image: url(frenchfires.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#BreadRoll {
+    background-image: url(breadroll.webp);
+    background-size: cover;
+    background-position: center;
+}
+#FriesPatato {
+    background-image: url(friespatato.webp);
+    background-size: cover;
+    background-position: center;
+}
+#Sandwich {
+    background-image: url(sandwich.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#ChessyBurger {
+    background-image: url(chessyburger.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#burger {
+    background-image: url(pexels-pedrofurtadoo-28902881.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#noodles {
+    background-image: url(noodles.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#Momos {
+    background-image: url(momos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#FrenchFrie {
+    background-image: url(frenchfires.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#BreadRoll {
+    background-image: url(breadroll.webp);
+    background-size: cover;
+    background-position: center;
+}
+#FriesPatato {
+    background-image: url(friespatato.webp);
+    background-size: cover;
+    background-position: center;
+}
+#Sandwich {
+    background-image: url(sandwich.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#ChessyBurger {
+    background-image: url(chessyburger.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/** Break Fast **/
+#Tea {
+    background-image: url(tea.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#Coffee {
+    background-image: url(coffee.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#applejuice {
+    background-image: url(applejucie.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#mangojuice {
+    background-image: url(mango\ jucie.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#milk {
+    background-image: url(milk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#samosa{
+    background-image: url(samosa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#milkshake {
+    background-image: url(milkshake.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#fast-sandwich {
+    background-image: url(sandwich.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/** Meals **/
+
+#rice {
+    background-image: url(rice.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#panner-rice {
+    background-image: url(pannerrice.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#daal-rice {
+    background-image: url(daal\ rice.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#daalmakhni {
+    background-image: url(daalmakhni.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#roti {
+    background-image: url(roti.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#daal-roti {
+    background-image: url(daalroti.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#panner-roti {
+    background-image: url(pannerroti.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#patato-meal {
+    background-image: url(patatomeal.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+/** Desert **/
+
+#white-ras {
+    background-image: url(rasgulla.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#black-ras {
+    background-image: url(blackrasgulla.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#jalebi {
+    background-image: url(jalebi.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#ice-cream {
+    background-image: url(ice\ cream.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#Laddoo {
+    background-image: url(laddoo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#cone {
+    background-image: url(cone.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#cake {
+    background-image: url(cake.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#cold-drink {
+    background-image: url(colddrink.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer{
+    display: flex;
+    color: white;
+    background-color: #222121;
+    height: 60px;
+    width: 100%;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+}
